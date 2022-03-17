@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+main()
+{
+	int i,st,j;
+	printf("Number of stairs ");
+	scanf("%d",&st);
+	for(i=0;i<=st;i++)
+	{
+		for(j=0;j<=i;j++)
+		{
+		
+		printf("01");
+		
+	}
+	printf("\t");
+	
+	}
+		
+		
+
+	return 0;
+}
